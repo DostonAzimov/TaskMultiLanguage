@@ -12,7 +12,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix'=>'{locale}'],function (){
+    Route::get('/', function () {
+        return view('welcome');
+    })->middleware('setLocale');
 });
+
+//Route::get('/{locale}/news',[\App\Http\Controllers\NewsController::class,'index'])->middleware('setLocale');
+
+
+
+

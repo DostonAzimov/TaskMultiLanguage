@@ -1,6 +1,5 @@
 <?php
 
-
 return [
 
     /*
@@ -14,13 +13,14 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'title'=>'Title',
-    'description'=>'Description',
-    'category'=>'Category',
-    'details'=>'Details',
-    'add'=>'Add News',
-    'news'=>'News',
+    'failed' => 'uz',
+    'password' => 'uz',
+    'throttle' => 'uz',
+    'title'=>'Sarlavha',
+    'description'=>'Tavsif',
+    'category'=>'Kategoriya',
+    'details'=>'Detallar',
+    'add'=>"Qo'shish",
+    'news'=>'Yangilik',
+
 ];
